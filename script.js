@@ -142,3 +142,19 @@ const data = [
     ],
   },
 ];
+
+console.log(data.Google);
+console.log(data.Yahoo);
+console.log(data.IBM);
+console.log(data.GREGS);
+// console.log(data."AUTO SHOP")
+// console.log(data."PAWN SHOP")
+console.log(data.Nike);
+console.log(data.Franks);
+console.log(data.Tims);
+console.log(data.Apple);
+console.log(data.Sony);
+console.log(data.Popies);
+console.log(data.Sally);
+console.log(data.Henry);
+// console.log(data."Dave's")
