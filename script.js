@@ -143,11 +143,13 @@ const data = [
   },
 ];
 
-console.log(data.Google);
-console.log(data.Yahoo);
-console.log(data.IBM);
-console.log(data.GREGS);
-// console.log(data."AUTO SHOP")
+console.log(data[1]);
+// console.log(data.Yahoo[0]);
+
+// console.log(Object.keys(data));
+// console.log(data.IBM);
+// console.log(data.GREGS);
+console.log(data.AUTO_SHOP);
 // console.log(data."PAWN SHOP")
 console.log(data.Nike);
 console.log(data.Franks);
