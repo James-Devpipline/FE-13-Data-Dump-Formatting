@@ -143,20 +143,16 @@ const data = [
   },
 ];
 
-console.log(data[1]);
-// console.log(data.Yahoo[0]);
+// how john did it. Litterally just looping through that set of data, need to study this futher later on
+const organizeData = (array) => {
+  for (company of array) {
+    const companyName = Object.keys(company)[0];
+    console.log(companyName);
+    for (i of company[companyName]) {
+      i = i.split(" ");
+      console.log(`${i[0]} -- Dep ${i[1]}`);
+    }
+  }
+};
 
-// console.log(Object.keys(data));
-// console.log(data.IBM);
-// console.log(data.GREGS);
-console.log(data.AUTO_SHOP);
-// console.log(data."PAWN SHOP")
-console.log(data.Nike);
-console.log(data.Franks);
-console.log(data.Tims);
-console.log(data.Apple);
-console.log(data.Sony);
-console.log(data.Popies);
-console.log(data.Sally);
-console.log(data.Henry);
-// console.log(data."Dave's")
+organizeData(data);
